@@ -1,1 +1,2 @@
 CREATE TABLE dbo.Cliente (id bigint, cedula VARCHAR (10),nombre VARCHAR (50),apellido VARCHAR (50), direccion VARCHAR (500), celular VARCHAR(10), correoElectronico VARCHAR(50), borrado bit);
+CREATE TABLE dbo.Vendedor (id VARCHAR (10),nombre_Vendedor VARCHAR (50),correoElectronico VARCHAR(50), correoElectronico_Vendedor VARCHAR (50));
