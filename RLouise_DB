@@ -1,4 +1,0 @@
-CREATE TABLE dbo.Cliente (id bigint, cedula VARCHAR (10),nombre VARCHAR (50),apellido VARCHAR (50), direccion VARCHAR (500), celular VARCHAR(10), correoElectronico VARCHAR(50), borrado bit);
-CREATE TABLE dbo.Vendedor (id_Vendedor VARCHAR (10),nombre_Vendedor VARCHAR (50),correoElectronico VARCHAR(50), correoElectronico_Vendedor VARCHAR (50));
-CREATE TABLE dbo.Producto (id_Producto VARCHAR (10),nombre_Producto VARCHAR (50),descripcion VARCHAR(50), precio INT);
-CREATE TABLE dbo.Compra (id_Vendedor VARCHAR (10),id_Compra VARCHAR (10),id_Producto VARCHAR (10),nombre_Producto VARCHAR (50),precio INT,total_Compra INT);
