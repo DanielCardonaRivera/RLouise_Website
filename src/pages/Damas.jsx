@@ -5,19 +5,19 @@ const productos = [
   {
     id: 1,
     nombre: 'Pijama Azul Luna',
-    imagen: '/pijama1.jpg',
+    imagen: 'assets/pijama1.jpg',
     nuevo: true,
   },
   {
     id: 2,
     nombre: 'Pijama Rosa Estrellas',
-    imagen: '/pijama2.jpg',
+    imagen: 'assets/pijama2.jpg',
     nuevo: true,
   },
   {
     id: 3,
     nombre: 'Pijama Cuadros',
-    imagen: '/pijama3.jpg',
+    imagen: 'assets/pijama3.jpg',
     nuevo: false,
   },
 ];
