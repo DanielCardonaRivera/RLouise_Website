@@ -30,3 +30,64 @@
     animation: logo-spin infinite 20s linear;
   }
 }
+.branding-lila {
+  color: #b86bff; /* Lila branding */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+.home-hero {
+  background-color: #f5e6fb4d; /* lavanda suave */
+}
+
+.home-title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 4rem;
+  color: #6f2dbd; /* lila oscuro  */
+  margin-bottom: 0.5rem;
+}
+
+.home-subtitle {
+  font-style: italic;
+  color: #3c3c3c;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+/* Fondo tipo branding */
+.home-hero {
+  background-color: #e29efd69;
+  padding: 100px 0;
+  min-height: 80vh;
+background-image: url('/assets/pijama-fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Título elegante */
+.home-title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 4rem;
+  color: #6f2dbd;
+}
+
+/* Subtítulo */
+.home-subtitle {
+  font-style: italic;
+  color: #4a4a4a;
+}
+
+/* Botón personalizado */
+.btn-brand {
+  background-color: #6f2dbd;
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 10px 25px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-brand:hover {
+  background-color: #5619a2;
+  color: #fff;
+}
