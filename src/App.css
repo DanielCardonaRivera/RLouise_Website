@@ -1,100 +1,57 @@
-/* src/index.css */
-
-#root {
-  padding: 2rem;
-}
-
-/* Estilos personalizados*/
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  transition: filter 300ms;
-}
-
-.logo:hover {
-  filter: drop-shadow(0 0 2em rgba(100, 108, 255, 0.7));
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .logo.react {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.branding-lila {
-  color: #b86bff;
-  /* Lila branding */
-}
-
+/* IMPORTACIÓN DE FUENTE */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
-
-
-.home-hero {
-  background-color: #f5e6fbd3; /* lavanda suave */
-}
-
-.home-title {
-  font-family: 'Dancing Script', cursive;
-  font-size: 4rem;
-  color: #6f2dbd;
-  /* lila oscuro  */
-  margin-bottom: 0.5rem;
-}
-
-.home-subtitle {
-  font-style: italic;
-  color: #3c3c3c;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
-
-/* Fondo tipo branding */
+/* HERO: Fondo con imagen */
 .home-hero {
   background-color: #dba3f1d1;
   padding: 100px 0;
   min-height: 80vh;
-  background-image: url('./assets/pijama-fondo.jpg');
+  background-image: url('./assets/pijama-fondo.jpg'); /* Ajusta si está en otra carpeta */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-/* Título elegante */
+/* TÍTULO PRINCIPAL */
 .home-title {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Great Vibes', cursive;
   font-size: 4rem;
   color: #6f2dbd;
+  margin-bottom: 1rem;
 }
 
-/* Subtítulo */
+/* SUBTÍTULO */
 .home-subtitle {
   font-style: italic;
   color: #4a4a4a;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
 }
 
-/* Botón personalizado */
+/* BOTÓN */
 .btn-brand {
   background-color: #6f2dbd;
   color: white;
   font-weight: bold;
   border-radius: 30px;
   padding: 10px 25px;
-  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .btn-brand:hover {
   background-color: #5619a2;
   color: #fff;
+}
+/*NAVBAR*/
+.logo-font {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  color: #6f2dbd;
+
 }

@@ -5,7 +5,7 @@ export default function Navbar() {
     <header>
       <nav className="navbar navbar-expand-lg navbar-light bg-light px-4">
         <div className="container-fluid">
-          <Link className="navbar-brand fw-bold" to="/">RLouise</Link>
+          <Link className="navbar-brand logo-font" to="/">RLouise</Link>
 
           <button
             className="navbar-toggler"
