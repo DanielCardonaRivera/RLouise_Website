@@ -7,7 +7,7 @@ export default function Home() {
       <div className="container text-center">
         <h1 className="home-title">RLouise</h1>
         <p className="home-subtitle">Pijamas con estilo.</p>
-        <a href="#coleccion" className="btn-brand">Ver colección</a>
+        <a href="./Damas" className="btn-brand">Ver colección</a>
       </div>
     </section>
   );

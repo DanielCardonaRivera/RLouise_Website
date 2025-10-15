@@ -1,11 +1,8 @@
 
 body {
-  /*background-color: #f8f9fa; /* fondo Bootstrap */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #root {
   padding: 1rem;
 }
-
-/* Estilos personalizados si los necesitas */
